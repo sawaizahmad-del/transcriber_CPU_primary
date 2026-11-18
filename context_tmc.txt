@@ -1,0 +1,7 @@
+# Background given to the LLM for every transcript. Edit freely; lines starting with # are ignored.
+# The more specific this is (names, products, jargon), the better the corrections.
+Company: TMC
+Recordings: internal meetings, transcribed automatically for meeting records.
+People (correct spellings):
+Clients / projects / products:
+Technical terms, abbreviations, English words that often appear:

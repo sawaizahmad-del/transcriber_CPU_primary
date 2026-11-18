@@ -1,0 +1,9 @@
+faster-whisper>=1.1.0
+numpy
+gradio>=4.0          # only for app.py (web UI)
+# diarize            # speaker identification, default backend (--speakers). Installs PyTorch; for a smaller CPU-only
+#                    # install first run: pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+# pyannote.audio     # optional, more accurate but slower speaker backend (--diarizer pyannote); free HF token needed
+# noisereduce        # optional, only for --denoise (usually not recommended)
+# ctranslate2 transformers torch   # only to convert models with convert_model.py
+# (the polish pass uses Ollama, installed separately from https://ollama.com; no extra pip packages)
